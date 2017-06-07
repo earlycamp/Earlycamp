@@ -1,7 +1,7 @@
 .bg-primary {
-    background-color: #673AB7 !important;
+    background-color: #1e7338 !important;
 }
 
 .page-header[filter-color="orange"] {
-    background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), #673AB7);
+    background: linear-gradient(0deg, rgba(30, 115, 56, 0.2), #1e7338);
 }

@@ -426,3 +426,25 @@
 .section-images{
     padding-bottom: 0;
 }
+
+
+.bg-primary {
+    background-color: #1e7338 !important;
+}
+
+.section-full-page[filter-color="primary"]:after {
+    background: rgba(30, 115, 56, 1), #1e7338)!important;
+}
+
+.page-header[filter-color="green"] {
+    background: rgba(30, 115, 56, 1), #1e7338)!important;
+}
+
+.btn-primary {
+    background-color: #1e7338;
+}
+
+.btn-primary.btn-simple {
+    color: #ffffff;
+    border-color: #ffffff;
+}

@@ -1,7 +1,45 @@
 .bg-primary {
+    background-color: #5cb85c !important;
+}
+
+.section-full-page[filter-color="green"]:after, .section-full-page[filter-color="primary"]:after {
+  background: rgba(227, 227, 227, 0.26)!important;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(0deg, rgba(30, 115, 56, 1), #1e7338)!important;
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(0deg, rgba(30, 115, 56, 1), #1e7338)!important;
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(0deg, rgba(30, 115, 56, 1), #1e7338)!important;
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(0deg, rgba(30, 115, 56, 1), #1e7338)!important;
+  /* Standard syntax */ }
+
+.page-header[filter-color="green"] {
+  background: rgba(44, 44, 44, 0.2);
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(0deg, rgba(30, 115, 56, 1), #1e7338)!important;
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(0deg, rgba(30, 115, 56, 1), #1e7338)!important;
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(0deg, rgba(30, 115, 56, 1), #1e7338)!important;
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(0deg, rgba(30, 115, 56, 1), #1e7338)!important;
+  /* Standard syntax */ }
+
+
+
+.bg-primary {
     background-color: #1e7338 !important;
 }
 
-.page-header[filter-color="orange"] {
-    background: linear-gradient(0deg, rgba(30, 115, 56, 0.2), #1e7338);
+.section-full-page[filter-color="primary"]:after {
+    background: rgba(30, 115, 56, 1), #1e7338)!important;
+}
+
+.page-header[filter-color="green"] {
+    background: rgba(30, 115, 56, 1), #1e7338)!important;
+}
+
+.btn-primary {
+    background-color: #1e7338;
 }
